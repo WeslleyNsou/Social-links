@@ -1,1 +1,86 @@
 @charset "UTF-8";
+
+/*Importação das fontes*/
+@font-face {
+    font-family:inter ;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+/*Configuração geral*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    background-color: black;
+}
+main{
+    height: 97vh;
+    background-color: black;
+}
+section{
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgb(31, 30, 30);
+    font-family: inter;
+    color: white;
+
+    /*Centralização vertical*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+img{
+    display: block;
+    width: 100px;
+    border-radius: 50%;
+    margin: auto;
+    padding: 20px;
+}
+h1, h2, h3{
+    text-align: center;
+    padding: 5px;
+}
+h2{
+    font-size: 0.9em;
+    color: hsl(75, 94%, 57%);
+    padding-bottom: 30px;
+}
+h3{
+    font-size: 1em;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+ul{
+    display: block;
+    list-style-type: none;
+    text-align: center;
+    width: 300px;
+    margin: auto;
+}
+li{
+    padding: 20px;
+    background-color:rgb(88, 88, 88) ;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+li a{
+    text-decoration: none;
+    font-family: inter;
+    color: white;
+}
+
+/*Footer*/
+footer{
+    font-family: inter;
+    color: white;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+ }
+.attribution a {
+     color: hsl(75, 94%, 57%);
+ }
